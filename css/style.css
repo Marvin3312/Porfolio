@@ -1,0 +1,377 @@
+@media (686px < width <= 2560px){
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+
+    scroll-behavior: smooth;
+    background: linear-gradient( white,  gray) ;
+}
+
+body{
+    background: linear-gradient( white,  gray) ;
+}
+.header-nav{
+    display: inline-flex;
+    height: 10vh;
+    width: 100%;
+    background: black;
+    color: white;
+    align-items: center;
+   
+}
+
+.header-nav ul{
+    justify-content: end;
+    margin-right: 5%;
+    margin-left: auto;
+    color:  aliceblue;
+ 
+}
+.header-nav h1{
+    margin-left: 5%;
+}
+
+.header-nav a{
+    padding: 0.5rem;
+    color:  aliceblue;
+   justify-items: end;
+   justify-content: end;
+   text-align: end;
+}
+a:hover{
+    transition: 1ms;
+    animation: 5ms;
+    color:gray;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 200px, 2fr)); 
+    background: rgba(rgba(26, 2, 65, 0.933));
+    height: 80vh;
+    place-content: center;
+    margin: 0 8rem;
+    gap: 1.5rem;
+}
+
+.seccion-principal span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: cadetblue;
+}
+.seccion-principal p {
+    font-size: 1.1rem;
+    max-width: 300px;
+    padding:  0.5rem;
+    margin-bottom: 10%;
+    overflow: hidden;
+}
+
+main img{
+    border-radius: 100%;
+    max-width: 320px;
+}
+
+.btn{
+    margin-top: 5rem;
+    padding: 1rem 2.5rem ;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.btn:hover{
+    transition: 1ms;
+    animation: 5ms;
+    background-color: cadetblue;
+}
+
+.conteiner{
+    height: 95vh;
+    width:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-bottom: 18rem
+}
+    
+
+
+.items{
+  width: 100%; 
+  max-height: 130vh;
+  display: grid;    
+  place-content: center;
+  
+}
+
+
+
+#items-service  {
+    max-height: 200vh;
+    display: grid;
+    place-content: center;
+    gap:20;
+    justify-content: center;
+    font-style: italic;
+}
+
+
+
+#items-service  h2{
+    padding: 50px;
+    font-weight: bold;
+}
+
+
+
+#myCanvas{
+   min-height:10vh;
+   max-width: 25rem;
+    min-width: 10rem ;
+    
+}
+
+#items-portafolio {
+    height: 80vh;
+    display: grid;
+   place-content: center;
+    justify-content: center;
+    text-align: center;
+    overflow: auto;
+      
+}
+
+
+.img-github{
+    height: auto;
+    width: 22rem; 
+   
+}
+
+
+.img-github:hover{
+   
+    width: 26rem;
+   transition: 1.5s;
+}
+
+.Conteiner-contancto{
+  
+    margin: 10% 5%;
+    height: 40vh;
+    text-align: center;
+}
+
+.Conteiner-contancto img{
+    max-width: 20%;
+    height: auto;
+}
+
+.Conteiner-contancto img:hover{
+    max-width: 23%;
+    transition: 1.2s;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+}
+@media (320px <= width <= 686px){
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background: linear-gradient( white,  gray) ;
+}
+.header-nav{
+    display: inline-flex;
+    height: 10vh;
+    width: 100%;
+    background: black;
+    color: white;
+    align-items: center;
+   
+}
+
+.header-nav ul{
+    padding: auto;
+    margin-right: 5%;
+    margin-left: auto;
+    color:  aliceblue;
+ 
+}
+.header-nav h1{
+    margin-left: 5%;
+    font-size:medium;
+}
+
+.header-nav a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color:  aliceblue;
+   justify-items: end;
+   justify-content: end;
+   text-align: end;
+}
+a:hover{
+    transition: 1ms;
+    animation: 5ms;
+    color:gray;
+}
+main{
+    font-size: medium;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 200px, 2fr));
+    height: 85vh;
+    place-content: center;
+    margin: 4rem 2.5rem;
+    gap: 2.5rem;
+}
+
+.seccion-principal span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: cadetblue;
+}
+.seccion-principal p {
+    font-size: 1.1rem;
+    max-width: 300px;
+    padding:  0.5rem;
+    margin-bottom: 10%;
+    overflow: hidden;
+}
+
+main img{
+    border-radius: 100%;
+    max-width: 190px;
+}
+
+.btn{
+    margin-top: 5rem;
+    padding: 1rem 2.5rem ;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.btn:hover{
+    transition: 1ms;
+    animation: 5ms;
+    background-color: cadetblue;
+}
+
+.conteiner{
+    height: 95vh;
+    width: auto;
+    display: grid;
+    place-content: center;
+    margin-top: 100%;
+    grid-template-columns: min-content;
+    gap: 0;
+    margin-bottom: 11rem;
+}
+    
+
+
+.items{
+  margin-top: 15%;  
+  width: 100%; 
+  max-height: 150vh;
+  display: grid;    
+  place-content: center;
+  
+}
+
+
+
+#items-service  {
+    max-height: 200vh;
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    font-style: italic;
+    margin-left: 15px;
+}
+
+
+
+#items-service  h2{
+    padding: 50px;
+    font-weight: bold;
+}
+
+
+
+#myCanvas{
+
+    height: auto;
+   display: grid;
+  max-width: 8rem;
+ 
+   
+}
+
+#items-portafolio {
+    height: 80vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.card-portafolio{
+    padding: 1.5rem;
+}
+
+.img-github{
+    margin-top: 100px;
+    height: auto;
+    width: 15rem;
+   
+}
+
+
+.img-github:hover{
+   
+    width: 17rem;
+   transition: 1.5s;
+}
+
+.Conteiner-contancto {
+    width: auto;
+    height: -45vh;
+    margin-top: 47rem;
+    display: flow-root;
+    background-color: snow;
+}
+
+.img-contacto{
+    margin-left:15% ;
+    max-width: 15%;
+    height: auto;
+}
+
+ .img-contacto:hover{
+    max-width: 18%;
+    transition: 1.2s;
+    height: auto;
+}
+}
