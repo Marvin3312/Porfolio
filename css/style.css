@@ -8,17 +8,17 @@
 html{
 
     scroll-behavior: smooth;
-    background: linear-gradient( white,  gray) ;
+    background: linear-gradient( white) ;
 }
 
 body{
-    background: linear-gradient( white,  gray) ;
+    background: #f3f3f3 ;
 }
 .header-nav{
     display: inline-flex;
     height: 10vh;
     width: 100%;
-    background: black;
+    background: #000000;
     color: white;
     align-items: center;
    
@@ -33,6 +33,7 @@ body{
 }
 .header-nav h1{
     margin-left: 5%;
+    color:#5f9ea5;
 }
 
 .header-nav a{
@@ -60,7 +61,7 @@ main{
 .seccion-principal span{
     font-size: 1.5rem;
     font-weight: bold;
-    color: cadetblue;
+    color: #5f9ea5;
 }
 .seccion-principal p {
     font-size: 1.1rem;
@@ -76,17 +77,21 @@ main img{
 }
 
 .btn{
+    text-decoration: none;
     margin-top: 5rem;
     padding: 1rem 2.5rem ;
     border-radius: 10px;
     color: white;
-    background-color: black;
+    background-color: cadetblue;
+    width: 1rem;
 }
 
 .btn:hover{
     transition: 1ms;
     animation: 5ms;
-    background-color: cadetblue;
+    width: 2.5rem;
+    background-color:teal;
+   
 }
 
 .conteiner{
@@ -199,7 +204,7 @@ html{
 }
 
 body{
-    background: linear-gradient( white,  gray) ;
+    background: linear-gradient( white) ;
 }
 .header-nav{
     display: inline-flex;
