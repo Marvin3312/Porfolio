@@ -270,17 +270,21 @@ main img{
 }
 
 .btn{
+    text-decoration: none;
     margin-top: 5rem;
     padding: 1rem 2.5rem ;
     border-radius: 10px;
     color: white;
-    background-color: black;
+    background-color: cadetblue;
+    width: 1rem;
 }
 
 .btn:hover{
     transition: 1ms;
     animation: 5ms;
-    background-color: cadetblue;
+    width: 2.5rem;
+    background-color:teal;
+   
 }
 
 .conteiner{
